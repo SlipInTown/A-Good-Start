@@ -1,0 +1,15 @@
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.exe
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.deps.json
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.runtimeconfig.json
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.runtimeconfig.dev.json
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.dll
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\ДЗ-1.pdb
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.csprojAssemblyReference.cache
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.AssemblyInfoInputs.cache
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.AssemblyInfo.cs
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.csproj.CoreCompileInputs.cache
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.dll
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.pdb
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\obj\Debug\netcoreapp3.1\ДЗ-1.genruntimeconfig.cache
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\Text\Answer.txt
+E:\UnityProjects\A Good Start\ДЗ-1\ДЗ-1\bin\Debug\netcoreapp3.1\Text\Welcome.txt
