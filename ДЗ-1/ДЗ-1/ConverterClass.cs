@@ -1,17 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ДЗ_1
+﻿namespace ДЗ_1
 {
     public class ConverterClass
     {
-        private string endedText;
+        private string endedText = "Факториал равен ";
+
+        private string endedText1 = "Сумма от 1 до N равна ";
+
+        private string endedText2 = "Максимальное четное число меньше N равно";
         public void ConvertTuple((int, int, int) tuple)
         {
-            endedText = $"Факториал равен {tuple.Item1} " +
-            $"\nСумма от 1 до N равна {tuple.Item2} " +
-            $"\nМаксимальное четное число меньше N равно {tuple.Item3}";
+
+            var tempText = 
+            $"{endedText} {tuple.Item1} " +
+            $"\n{endedText1} {tuple.Item2} " +
+            $"\n{endedText2} {tuple.Item3} ";
         }
 
         public string ReturnString()

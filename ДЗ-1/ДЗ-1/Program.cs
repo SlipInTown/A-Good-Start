@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace ДЗ_1
 {
     sealed class Program
@@ -50,7 +49,6 @@ namespace ДЗ_1
 
             outPut.Show(input.Input(_pathEnd));
 
-            Console.ReadLine();
         }
 
         private static bool CheckForErrorString(string temp)
