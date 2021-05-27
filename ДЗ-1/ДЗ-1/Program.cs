@@ -1,7 +1,7 @@
 ﻿
 namespace ДЗ_1
 {
-    sealed class Program
+    internal sealed class Program
     {
         private const string _badString = "q";
 
@@ -11,9 +11,9 @@ namespace ДЗ_1
         
         private static IRead read;
         
-        private static Calculator calculator;
+        private static ICalculator calculator;
 
-        private static ConverterClass converterClass;
+        private static IConverterClass converterClass;
 
         private static string _pathWelcome = @"Text\Welcome.txt";
 

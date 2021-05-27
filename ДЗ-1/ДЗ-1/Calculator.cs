@@ -2,12 +2,12 @@
 
 namespace ДЗ_1
 {
-    internal sealed class Calculator
+    internal sealed class Calculator : ICalculator
     {
         private const int _startValue = 1;
         private const int _initValue = 0;
 
-        public (int,int,int) Calculate(string value)
+        public (int, int, int) Calculate(string value)
         {
             int convertedString = Int32.Parse(value);
 

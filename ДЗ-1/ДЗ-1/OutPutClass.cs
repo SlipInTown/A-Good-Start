@@ -2,7 +2,7 @@
 
 namespace ДЗ_1
 {
-    public sealed class OutPutClass : IOutPut
+    internal sealed class OutPutClass : IOutPut
     {
         public void Show(string temp)
         {

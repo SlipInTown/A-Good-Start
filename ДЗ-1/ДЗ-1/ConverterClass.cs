@@ -1,6 +1,6 @@
 ﻿namespace ДЗ_1
 {
-    public class ConverterClass
+    internal sealed class ConverterClass : IConverterClass
     {
         private string endedText = "Факториал равен ";
 
