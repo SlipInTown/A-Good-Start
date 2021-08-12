@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace GoodStart
 {
-    public class Player : MonoBehaviour
+    public class Player : MonoBehaviour, IPlayer
     {
         
         [SerializeField] private float _speed;
@@ -20,6 +20,7 @@ namespace GoodStart
 
         private IInput input;
 
+        public Health Health { get ; set ; }
 
         private void Start()
         {
@@ -29,6 +30,12 @@ namespace GoodStart
             _ship = new Ship(moveTransform, rotation);
 
             input = new StandartInput(_ship, _barrel);
+
+            EnemyExample.CreateShipEnemy(new Health(100f,100f));
+
+            EnemyExample.CreateSpaceGarbage(new Health(5f, 5f));
+
+            var Enemy = new EnemyFactory().Create(EnemyType.Alien);
         }
         
         private void FixedUpdate()
@@ -39,6 +46,8 @@ namespace GoodStart
             _ship.Move(Input.GetAxis(_horizontalAxis), Input.GetAxis(_verticalAxis), Time.deltaTime);
 
             input.InputCheck();
+
+
 
         }
 
